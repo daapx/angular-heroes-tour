@@ -1,0 +1,5 @@
+<h1>Resultados de busqueda: <small>{{ termino }}</small></h1>
+<hr>
+<div class="card-columns">
+    <app-heroe-tarjeta [heroe]="heroe" [index]="heroe.idx" *ngFor="let heroe of heroes;"></app-heroe-tarjeta>
+</div>
